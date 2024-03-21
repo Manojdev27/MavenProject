@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+    <listeners>
+        <listener class-name="testng.ListenersDemo"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/Selenium Projects/MavenProject">
+
+<!--        <groups>-->
+<!--                <run>-->
+<!--                    <include name="login"/>-->
+<!--                    <exclude name="smoke"/>-->
+<!--                </run>-->
+<!--        </groups>-->
+        <classes>
+<!--            <class name="testng.TestNgTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyFacebookInvalidPasswordError" />-->
+<!--                    <include name="verifyFacebookPageTitle" />-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="testng.TestNgAnnotationsTest">-->
+
+<!--            </class>-->
+            
+            <class name="testng.ListenersTest">
+
+            </class>
+
+        </classes>
+    </test>
+</suite>
